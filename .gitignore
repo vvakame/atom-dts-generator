@@ -1,0 +1,10 @@
+.idea/
+
+.tscache/
+node_modules/
+tsconfig.json
+
+typings/
+lib/**/*.js
+lib/**/*.js.map
+lib/**/*.d.ts

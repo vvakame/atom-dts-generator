@@ -1,0 +1,50 @@
+{
+  "name": "atom-dts-generator",
+  "private": true,
+  "author": "vvakame",
+  "version": "0.0.1",
+  "description": "Atom Definition Generator",
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvakame/atom-dts-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vvakame/atom-dts-generator/issues"
+  },
+  "homepage": "https://github.com/vvakame/atom-dts-generator",
+  "license": {
+    "type": "MIT",
+    "url": "http://vvakame.mit-license.org/"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "gen": "node lib/index.js > atom-generate.d.ts"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "es6-promise": "2.1.0",
+    "json-patch": "^0.5.0",
+    "typescript-formatter": "^0.3.0"
+  },
+  "devDependencies": {
+    "espower-loader": "0.10.0",
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-conventional-changelog": "1.2.1",
+    "grunt-dtsm": "0.2.8",
+    "grunt-mocha-test": "0.12.7",
+    "grunt-ts": "4.0.1",
+    "grunt-tslint": "2.0.0",
+    "grunt-typedoc": "0.2.2",
+    "load-grunt-tasks": "3.1.0",
+    "mocha": "2.2.4",
+    "power-assert": "0.11.0",
+    "source-map-support": "0.2.10",
+    "time-grunt": "1.1.1",
+    "typedoc": "0.3.3",
+    "typescript": "1.5.0-alpha"
+  }
+}
