@@ -1,4 +1,4 @@
-declare module "atom" {
+declare module AtomTypes {
     /**
      * Atom global for dealing with packages, themes, menus, and the window.
      * 

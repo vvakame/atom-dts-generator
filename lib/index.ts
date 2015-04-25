@@ -16,7 +16,7 @@ class Emitter {
     }
 
     emit():Promise<string> {
-        this.def = `declare module "atom" {\n`;
+        this.def = `declare module AtomTypes {\n`;
 
         Object.keys(meta.classes).forEach(clazzName => {
             let clazz = meta.classes[clazzName];
